@@ -1,0 +1,195 @@
+    
+    
+    
+    #btnsLogin {
+
+        margin-top: 180px;
+
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+    }
+
+    .btnLogin {
+        height: 80px;
+        width: 240px;
+        border-radius: 15px;
+        background-color: #7289DA;
+
+        color: white;
+        font-weight: bold;
+        font: 16px;
+
+        justify-content: center;
+        display: flex;
+        align-items: center;
+        opacity: 1;
+        transition: all 0.4s;
+
+        margin-top: 10px;
+    }
+    
+    .btnLogin:hover {
+        opacity: 0.6;
+    }
+
+    /* ---------------------------------------------------- */
+
+    #formCreate {
+        position: relative;
+
+    }
+
+    #formCreate form {
+        border-radius: 15px;
+
+        width: 300px;
+        height: 400px;
+        background-color: #2C2F33;
+
+        position: absolute;
+        left: 50%;
+        top: 0%;
+        transform: translate(-50%, -60%);
+
+        display: flex;
+        align-items: center;
+        flex-direction: column;
+    }
+
+    #formCreate img {
+        height: 30px;
+        width: 30px;
+        opacity: 1;
+        transition: all 0.2s;
+        
+        position: absolute;
+        left: 100%;
+        top: 0%;
+        transform: translate(-110%, 10%);
+    }
+
+    #formCreate img:hover {
+        opacity: 0.6;
+    }
+
+    #formCreate h2 {
+        color: white;
+        margin: 20px 0;
+    }
+
+    #formCreate input {
+        background-color: #2C2F33;
+        border-radius: 5px;
+        height: 40px;
+        margin-top: 5px;
+        width: 75%;
+        border-style: none;
+        border: rgb(0, 0, 0, 0.3) 2px solid;
+        outline-style: none;
+        transition: opacity 0.2s;
+        color: gray;
+        padding: 0 10px;
+    }
+
+    #formCreate button {
+        border-radius: 5px;
+        height: 40px;
+        margin-top: 15px;
+        width: 50%;
+        border-style: none;
+        outline-style: none;
+        background-color: #7289DA;
+        transition: opacity 0.2s;
+        font-weight: bold;
+        color: white;
+        font-size: 16px;
+        
+    }
+
+    #formCreate button:hover {
+        opacity: 0.6;
+    }
+
+    /* ------------------------------------------------------ */
+
+    #formFind {
+        position: relative;
+
+    }
+
+    #formFind form {
+        border-radius: 15px;
+
+        width: 300px;
+        height: 400px;
+        background-color: #2C2F33;
+
+        position: absolute;
+        left: 50%;
+        top: 0%;
+        transform: translate(-50%, -60%);
+
+        display: flex;
+        align-items: center;
+        flex-direction: column;
+    }
+
+    #formFind img {
+        height: 30px;
+        width: 30px;
+        opacity: 1;
+        transition: all 0.2s;
+        
+        position: absolute;
+        left: 100%;
+        top: 0%;
+        transform: translate(-110%, 10%);
+    }
+
+    #formFind img:hover {
+        opacity: 0.6;
+    }
+
+    #formFind h2 {
+        color: white;
+        margin: 20px 0;
+    }
+
+    #formFind input {
+        background-color: #2C2F33;
+        border-radius: 5px;
+        height: 40px;
+        margin-top: 5px;
+        width: 75%;
+        border-style: none;
+        border: rgb(0, 0, 0, 0.3) 2px solid;
+        outline-style: none;
+        transition: opacity 0.2s;
+        color: gray;
+        padding: 0 10px;
+    }
+
+    #formFind button {
+        border-radius: 5px;
+        height: 40px;
+        margin-top: 15px;
+        width: 50%;
+        border-style: none;
+        outline-style: none;
+        background-color: #7289DA;
+        transition: opacity 0.2s;
+        font-weight: bold;
+        color: white;
+        font-size: 16px;
+        
+    }
+
+    #formFind button:hover {
+        opacity: 0.6;
+    }
+
+
+    /* ------------------------------------- */
+
+    

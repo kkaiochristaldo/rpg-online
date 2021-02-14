@@ -1,0 +1,47 @@
+<!DOCTYPE html>
+<html lang="pt">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+
+    <link rel="stylesheet" href="../styles/global.css">
+    <link rel="stylesheet" href="../styles/login.css">
+
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/socket.io/3.0.4/socket.io.js" integrity="sha512-aMGMvNYu8Ue4G+fHa359jcPb1u+ytAF+P2SCb+PxrjCdO3n3ZTxJ30zuH39rimUggmTwmh2u7wvQsDTHESnmfQ==" crossorigin="anonymous"></script>
+
+    <script src="../controllers/login/main.js"></script>
+    
+
+    <title>Login</title>
+
+</head>
+<body>
+    
+    <div id="btnsLogin">
+        <div class="btnLogin" onclick="btnCreate()" id="create">Criar Sala</div>
+        <div class="btnLogin" onclick="btnFind()" id="find">Encontrar Sala</div>
+    </div>
+
+    <section class="invisible" id="formCreate"> 
+        <form>
+            <img src="../img/icons/close-dark.svg" onclick="closeLogin()" >
+            <h2>Crie sua sala!</h2>
+            <input autocomplete="off" id="nameCreate" placeholder="Apelido" type="text">
+            <input autocomplete="off" id="amountCreate" placeholder="Quantidade jogadores" type="text">
+            <button onclick="createRoom(event)" >Entrar</button>
+        </form>
+
+    </section>
+
+    <section class="invisible" id="formFind"  >
+        <form>
+            <img src="../img/icons/close-dark.svg" onclick="closeLogin()" >
+            <h2>Entre em uma sala!</h2>
+            <input autocomplete="off" id="nameFind" placeholder="Apelido" type="text">
+            <input autocomplete="off" id="codeFind" placeholder="Código" type="text">
+            <button onclick="findRoom(event)" >Entrar</button>
+        </form>
+    </section>
+
+</body>
+</html>
